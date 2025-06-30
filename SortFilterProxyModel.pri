@@ -12,6 +12,7 @@ HEADERS += $$PWD/qqmlsortfilterproxymodel.h \
     $$PWD/filters/rangefilter.h \
     $$PWD/filters/expressionfilter.h \
     $$PWD/filters/filtercontainerfilter.h \
+    $$PWD/filters/filtersqmltypes.h \
     $$PWD/filters/anyoffilter.h \
     $$PWD/filters/alloffilter.h \
     $$PWD/sorters/sorter.h \
@@ -19,6 +20,7 @@ HEADERS += $$PWD/qqmlsortfilterproxymodel.h \
     $$PWD/sorters/rolesorter.h \
     $$PWD/sorters/stringsorter.h \
     $$PWD/sorters/expressionsorter.h \
+    $$PWD/sorters/sortersqmltypes.h \
     $$PWD/proxyroles/proxyrole.h \
     $$PWD/proxyroles/proxyrolecontainer.h \
     $$PWD/proxyroles/joinrole.h \
@@ -27,7 +29,8 @@ HEADERS += $$PWD/qqmlsortfilterproxymodel.h \
     $$PWD/proxyroles/singlerole.h \
     $$PWD/proxyroles/regexprole.h \
     $$PWD/sorters/filtersorter.h \
-    $$PWD/proxyroles/filterrole.h
+    $$PWD/proxyroles/filterrole.h \
+    $$PWD/proxyroles/proxyrolesqmltypes.h
 
 SOURCES += $$PWD/qqmlsortfilterproxymodel.cpp \
     $$PWD/filters/filter.cpp \

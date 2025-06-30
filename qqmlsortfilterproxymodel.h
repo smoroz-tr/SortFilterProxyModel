@@ -155,6 +155,9 @@ private:
     bool m_invalidateProxyRolesQueued = false;
 };
 
+
+void registerQQmlSortFilterProxyModelTypes();
+
 }
 
 #endif // QQMLSORTFILTERPROXYMODEL_H
